@@ -133,7 +133,7 @@ img {
     line-height: 1.15;    
     letter-spacing: 0.02em;
 
-    transition: 250ms var(--timing-fn);
+    transition: color 250ms var(--timing-fn);
     
 }
 
@@ -186,7 +186,7 @@ img {
     letter-spacing: 0.02em;
 
     
-    transition: 250ms var(--timing-fn);
+    transition: color 250ms var(--timing-fn);
     
 }
 
@@ -308,10 +308,10 @@ img {
     width: 44px;
     height: 44px;
     color: var(--primary-bg-color); 
-    background: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
 
-    transition: 250ms var(--timing-fn);
+    transition: color 250ms var(--timing-fn), background-color 250ms var(--timing-fn);
 
 }
 
@@ -319,7 +319,7 @@ img {
 .nav-link-footer:focus {
     background-color: var(--accent-color);
     color: var(--primary-bg-color);
-    border-radius: 50%;
+    
 } 
 
 .nav-icon{
